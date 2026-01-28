@@ -1,0 +1,37 @@
+# Byte-compiled / interpreted
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Evaluation and human eval outputs (generated at runtime)
+evaluation/results/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Local env and secrets (do not commit API keys)
+.env.local
+.env.*.local
+*.pem
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
