@@ -10,7 +10,7 @@ An AI agent that explains Bluesky posts from their URLs with context-aware, sear
 
 1. **Install dependencies**
    ```bash
-   cd rc_assignment
+   cd bluesky_post_explainer
    python -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
    pip install -r requirements.txt
